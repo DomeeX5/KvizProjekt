@@ -3,11 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./src/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zászlók kvíz</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <img src="./public/korean-flag.jpg" alt=""><br>
+      <form>
+        <input type="radio" id="Korea" name="fav_language" value="correct" required>
+        <label for="Korea">Korea</label><br>
+        <input type="radio" id="Japan" name="fav_language" value="wrong" required>
+        <label for="Japan">Japán</label><br>
+        <input type="radio" id="Vietnam" name="fav_language" value="wrong" required>
+        <label for="Vietnam">Vietnám</label><br>
+        <button type="submit">Gomb</button>
+      </form>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
