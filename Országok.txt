@@ -1,15 +1,15 @@
 Zászlók össze gyűjtése.
-1.Dominican Republic
-2.Senegal
-3.Iran
-4.Iceland
-5.Cyprus
-6.Malta
-7.Andorra
-8.Guatemala
-9.Tonga
-10.Russia
-11.Greece
+1.Dominican Republic - https://www.worldometers.info/img/flags/dr-flag.gif
+2.Senegal - https://www.worldometers.info/img/flags/sg-flag.gif
+3.Iran - https://www.worldometers.info/img/flags/ir-flag.gif
+4.Iceland - https://www.worldometers.info/img/flags/ic-flag.gif
+5.Cyprus - https://www.worldometers.info/img/flags/cy-flag.gif
+6.Malta - https://www.worldometers.info/img/flags/mt-flag.gif
+7.Andorra - https://www.worldometers.info/img/flags/an-flag.gif
+8.Guatemala - https://www.worldometers.info/img/flags/gt-flag.gif
+9.Tonga - https://www.worldometers.info/img/flags/tn-flag.gif
+10.Russia - https://www.worldometers.info/img/flags/rs-flag.gif
+11.Greece - https://www.worldometers.info/img/flags/gr-flag.gif
 12. Albania  -  https://www.worldometers.info/img/flags/al-flag.gif
 13. Croatia  -  https://www.worldometers.info/img/flags/hr-flag.gif
 14. Uzbekistan  -  https://www.worldometers.info/img/flags/uz-flag.gif
