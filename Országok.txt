@@ -10,23 +10,23 @@ Zászlók össze gyűjtése.
 9.Tonga
 10.Russia
 11.Greece
-12. Albania
-13. Croatia
-14. Uzbekistan
-15. Japan
-16. Latvia
-17. Bolivia
-18. Norway
-19. Maldives
-20. China
-21.Czech Republic (Czechia)
-22.Somalia
-23.Finland
-24.Congo
-25.Austria
-26. Hungary
-27. Israel
-28.North Macedonia
-29.Costa Rica
-30.United Arab Emirates
+12. Albania  -  https://www.worldometers.info/img/flags/al-flag.gif
+13. Croatia  -  https://www.worldometers.info/img/flags/hr-flag.gif
+14. Uzbekistan  -  https://www.worldometers.info/img/flags/uz-flag.gif
+15. Japan  -  https://www.worldometers.info/img/flags/ja-flag.gif
+16. Latvia  -  https://www.worldometers.info/img/flags/lg-flag.gif
+17. Bolivia  -  https://www.worldometers.info/img/flags/bl-flag.gif
+18. Norway  -  https://www.worldometers.info/img/flags/no-flag.gif
+19. Maldives  -  https://www.worldometers.info/img/flags/mv-flag.gif
+20. China  -  https://www.worldometers.info/img/flags/ch-flag.gif
+21.Czech Republic (Czechia)  -  https://www.worldometers.info/img/flags/ez-flag.gif
+22.Somalia  -  https://www.worldometers.info/img/flags/so-flag.gif
+23.Finland  -  https://www.worldometers.info/img/flags/fi-flag.gif
+24.Congo  -  https://www.worldometers.info/img/flags/cg-flag.gif
+25.Austria  -  https://www.worldometers.info/img/flags/au-flag.gif
+26. Hungary  -  https://www.worldometers.info/img/flags/hu-flag.gif
+27. Israel  -  https://www.worldometers.info/img/flags/is-flag.gif
+28.North Macedonia  -  https://www.worldometers.info/img/flags/mk-flag.gif
+29.Costa Rica  -  https://www.worldometers.info/img/flags/cs-flag.gif
+30.Saudi Arabia  -   https://www.worldometers.info/img/flags/sa-flag.gif
                            
