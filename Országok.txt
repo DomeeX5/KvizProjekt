@@ -1,0 +1,32 @@
+Zászlók össze gyűjtése.
+1. Dominican Republic  -  https://www.worldometers.info/img/flags/dr-flag.gif  -  Dominikai Köztársaság 
+2. Senegal  -             https://www.worldometers.info/img/flags/sg-flag.gif  -  Szenegál
+3. Iran  -                https://www.worldometers.info/img/flags/ir-flag.gif  -  Irán
+4. Iceland  -             https://www.worldometers.info/img/flags/ic-flag.gif  -  Izland
+5. Cyprus  -              https://www.worldometers.info/img/flags/cy-flag.gif  -  Ciprus
+6. Malta  -               https://www.worldometers.info/img/flags/mt-flag.gif  -  Málta
+7. Andorra  -             https://www.worldometers.info/img/flags/an-flag.gif  -  Andorra
+8. Guatemala  -           https://www.worldometers.info/img/flags/gt-flag.gif  -  Guatemala
+9. Tonga  -               https://www.worldometers.info/img/flags/tn-flag.gif  -  Tonga
+10. Russia  -             https://www.worldometers.info/img/flags/rs-flag.gif  -  Oroszország
+11. Greece  -             https://www.worldometers.info/img/flags/gr-flag.gif  -  Görögország
+12. Albania  -            https://www.worldometers.info/img/flags/al-flag.gif  -  Albania
+13. Croatia  -            https://www.worldometers.info/img/flags/hr-flag.gif  -  Horvátország
+14. Uzbekistan  -         https://www.worldometers.info/img/flags/uz-flag.gif  -  Üzbegisztán
+15. Japan  -              https://www.worldometers.info/img/flags/ja-flag.gif  -  Japán
+16. Latvia  -             https://www.worldometers.info/img/flags/lg-flag.gif  -  Lettország
+17. Bolivia  -            https://www.worldometers.info/img/flags/bl-flag.gif  -  Bolívia
+18. Norway  -             https://www.worldometers.info/img/flags/no-flag.gif  -  Norvégia
+19. Maldives  -           https://www.worldometers.info/img/flags/mv-flag.gif  -  Maldív-szigetek
+20. China  -              https://www.worldometers.info/img/flags/ch-flag.gif  -  Kína
+21. Czech Republic  -     https://www.worldometers.info/img/flags/ez-flag.gif  -  Csehország
+22. Somalia  -            https://www.worldometers.info/img/flags/so-flag.gif  -  Szomália
+23. Finland  -            https://www.worldometers.info/img/flags/fi-flag.gif  -  Finnország
+24. Congo  -              https://www.worldometers.info/img/flags/cg-flag.gif  -  Kongói Demokratikus Köztársaság
+25. Austria  -            https://www.worldometers.info/img/flags/au-flag.gif  -  Ausztria
+26. Hungary  -            https://www.worldometers.info/img/flags/hu-flag.gif  -  Magyarország
+27. Israel  -             https://www.worldometers.info/img/flags/is-flag.gif  -  Izrael
+28. North Macedonia  -    https://www.worldometers.info/img/flags/mk-flag.gif  -  Észak-Macedónia
+29. Costa Rica  -         https://www.worldometers.info/img/flags/cs-flag.gif  -  Costa Rica
+30. Saudi Arabia  -       https://www.worldometers.info/img/flags/sa-flag.gif  -  Szaúd-Arábia
+                           
