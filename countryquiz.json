@@ -1,0 +1,215 @@
+
+[
+  {
+    "id": 1,
+    "CountryImage": "https://www.worldometers.info/img/flags/dr-flag.gif",
+    "CorrectAnswer": "Dominikai Köztársaság",
+    "FirstIncorrectAnswer": "Burkina Faso",
+    "SecondIncorrectAnswer": "Guinea"
+  },
+  {
+    "id": 2,
+    "CountryImage": "https://www.worldometers.info/img/flags/sg-flag.gif",
+    "CorrectAnswer": "Senegal",
+    "FirstIncorrectAnswer": "Mali",
+    "SecondIncorrectAnswer": "Cameroon"
+  },
+  {
+    "id": 3,
+    "CountryImage": "https://www.worldometers.info/img/flags/ir-flag.gif",
+    "CorrectAnswer": "Irán",
+    "FirstIncorrectAnswer": "Irak",
+    "SecondIncorrectAnswer": "Katar"
+  },
+  {
+    "id": 4,
+    "CountryImage": "https://www.worldometers.info/img/flags/ic-flag.gif",
+    "CorrectAnswer": "Izland",
+    "FirstIncorrectAnswer": "Norvégia",
+    "SecondIncorrectAnswer": "Dánia"
+  },
+          {
+    "id": 5,
+    "CountryImage": "https://www.worldometers.info/img/flags/cy-flag.gif",
+    "CorrectAnswer": "Ciprus",
+    "FirstIncorrectAnswer": "Jamaika",
+    "SecondIncorrectAnswer": "Kuba"
+  },
+          {
+    "id": 6,
+    "CountryImage": "https://www.worldometers.info/img/flags/mt-flag.gif",
+    "CorrectAnswer": "Málta",
+    "FirstIncorrectAnswer": "Mexikó",
+    "SecondIncorrectAnswer": "Ecuador"
+  },
+          {
+    "id": 7,
+    "CountryImage": "https://www.worldometers.info/img/flags/an-flag.gif",
+    "CorrectAnswer": "Andorra",
+    "FirstIncorrectAnswer": "Albánia",
+    "SecondIncorrectAnswer": "Moldova"
+  },
+          {
+    "id": 8,
+    "CountryImage": "https://www.worldometers.info/img/flags/gt-flag.gif",
+    "CorrectAnswer": "Guatemala",
+    "FirstIncorrectAnswer": "Honduras",
+    "SecondIncorrectAnswer": "Nicaragua"
+  },
+          {
+    "id": 9,
+    "CountryImage": "https://www.worldometers.info/img/flags/tn-flag.gif ",
+    "CorrectAnswer": "Tonga",
+    "FirstIncorrectAnswer": "Svájc",
+    "SecondIncorrectAnswer": "Dánia"
+  }  ,    
+    {
+    "id": 10,
+    "CountryImage": "https://www.worldometers.info/img/flags/rs-flag.gif",
+    "CorrectAnswer": "Oroszország",
+    "FirstIncorrectAnswer": "Szerbia",
+    "SecondIncorrectAnswer": "Szlovákia"
+  },
+          {
+    "id": 11,
+    "CountryImage": "https://www.worldometers.info/img/flags/gr-flag.gif",
+    "CorrectAnswer": "Görögország",
+    "FirstIncorrectAnswer": "Uruguay",
+    "SecondIncorrectAnswer": "Argentina"
+  },
+    
+          {
+    "id": 12,
+    "CountryImage": "https://www.worldometers.info/img/flags/al-flag.gif ",
+    "CorrectAnswer": "Albánia",
+    "FirstIncorrectAnswer": "Andorra",
+    "SecondIncorrectAnswer": "Egyesült királyság"
+  },
+          {
+    "id": 13,
+    "CountryImage": "https://www.worldometers.info/img/flags/hr-flag.gif",
+    "CorrectAnswer": "Horvátország",
+    "FirstIncorrectAnswer": "Hollandia",
+    "SecondIncorrectAnswer": "Paraguay"
+  },
+          {
+    "id": 14,
+    "CountryImage": "https://www.worldometers.info/img/flags/uz-flag.gif",
+    "CorrectAnswer": "Üzbegisztán",
+    "FirstIncorrectAnswer": "Afganisztán",
+    "SecondIncorrectAnswer": "Türkmenisztán"
+  },
+          {
+    "id": 15,
+    "CountryImage": "https://www.worldometers.info/img/flags/ja-flag.gif",
+    "CorrectAnswer": "Japán",
+    "FirstIncorrectAnswer": "Kína",
+    "SecondIncorrectAnswer": "Banglades"
+  },
+          {
+    "id": 16,
+    "CountryImage": "https://www.worldometers.info/img/flags/lg-flag.gif",
+    "CorrectAnswer": "Lettország",
+    "FirstIncorrectAnswer": "Észtország",
+    "SecondIncorrectAnswer": "Litvánia"
+  },
+    
+          {
+    "id": 17,
+    "CountryImage": "https://www.worldometers.info/img/flags/bl-flag.gif",
+    "CorrectAnswer": "Bolívia",
+    "FirstIncorrectAnswer": "Gána",
+    "SecondIncorrectAnswer": "Benin"
+  },
+          {
+    "id": 18,
+    "CountryImage": "https://www.worldometers.info/img/flags/no-flag.gif",
+    "CorrectAnswer": "Norvégia",
+    "FirstIncorrectAnswer": "Svédország",
+    "SecondIncorrectAnswer": "Izland"
+  },
+          {
+    "id": 19,
+    "CountryImage": "https://www.worldometers.info/img/flags/mv-flag.gif",
+    "CorrectAnswer": "Maldív-szigetek",
+    "FirstIncorrectAnswer": "Mauritánia",
+    "SecondIncorrectAnswer": "Örményország"
+  },
+          {
+    "id": 20,
+    "CountryImage": "https://www.worldometers.info/img/flags/ch-flag.gif",
+    "CorrectAnswer": "Kína",
+    "FirstIncorrectAnswer": "Észak-Korea",
+    "SecondIncorrectAnswer": "Vietnám"
+  },
+          {
+    "id": 21,
+    "CountryImage": "https://www.worldometers.info/img/flags/ez-flag.gif",
+    "CorrectAnswer": "Csehország",
+    "FirstIncorrectAnswer": "Szerbia",
+    "SecondIncorrectAnswer": "Szlovénia"
+  },
+          {
+    "id": 22,
+    "CountryImage": "https://www.worldometers.info/img/flags/so-flag.gif",
+    "CorrectAnswer": "Szomália",
+    "FirstIncorrectAnswer": "Gabon",
+    "SecondIncorrectAnswer": "Togo"
+  },
+          {
+    "id": 23,
+    "CountryImage": "https://www.worldometers.info/img/flags/fi-flag.gif",
+    "CorrectAnswer": "Finnország",
+    "FirstIncorrectAnswer": "Dánia",
+    "SecondIncorrectAnswer": "Svédország"
+  },
+          {
+    "id": 24,
+    "CountryImage": "https://www.worldometers.info/img/flags/cg-flag.gif",
+    "CorrectAnswer": "Kongói Demokratikus Köztársaság",
+    "FirstIncorrectAnswer": "Etiópia",
+    "SecondIncorrectAnswer": "Guinea"
+  },
+          {
+    "id": 25,
+    "CountryImage": "https://www.worldometers.info/img/flags/au-flag.gif",
+    "CorrectAnswer": "Ausztria",
+    "FirstIncorrectAnswer": "Bahrein ",
+    "SecondIncorrectAnswer": "Lettország"
+  },
+          {
+    "id": 26,
+    "CountryImage": "https://www.worldometers.info/img/flags/hu-flag.gif",
+    "CorrectAnswer": "Magyarország",
+    "FirstIncorrectAnswer": "Olaszország",
+    "SecondIncorrectAnswer": "Tádzsikisztán"
+  },
+          {
+    "id": 27,
+    "CountryImage": "https://www.worldometers.info/img/flags/is-flag.gif",
+    "CorrectAnswer": "Izrael",
+    "FirstIncorrectAnswer": "Honduras",
+    "SecondIncorrectAnswer": "Haiti"
+  },
+          {
+    "id": 28,
+    "CountryImage": "https://www.worldometers.info/img/flags/mk-flag.gif",
+    "CorrectAnswer": "Észak-Macedónia",
+    "FirstIncorrectAnswer": "Kína",
+    "SecondIncorrectAnswer": "Japán"
+  },
+        {
+    "id": 29,
+    "CountryImage": "https://www.worldometers.info/img/flags/cs-flag.gif",
+    "CorrectAnswer": "Costa Rica",
+    "FirstIncorrectAnswer": "Nauru",
+    "SecondIncorrectAnswer": "Kuba"
+  },
+    {
+    "id": 30,
+    "CountryImage": "https://www.worldometers.info/img/flags/sa-flag.gif",
+    "CorrectAnswer": "Szaúd-Arábia",
+    "FirstIncorrectAnswer": "Egyesült Arab Emirségek",
+    "SecondIncorrectAnswer": "Nyugat-Szahara"
+  }
+]
