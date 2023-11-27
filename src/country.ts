@@ -1,9 +1,7 @@
-export interface Countries {
-    countryImage: URL
-    countryName: string
-    correctAnswer: boolean
-}
-
-export interface AllCountries {
-    countries: Countries[];
+export interface country {
+    id: number;
+    CountryImage: string;
+    CorrectAnswer: string;
+    FirstIncorrectAnswer: string;
+    SecondIncorrectAnswer: string;
 }
