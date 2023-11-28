@@ -19,7 +19,6 @@ async function listCountries() {
   const correctLabel = document.getElementById('correctLabel');
   const incorrectLabel1 = document.getElementById('incorrect1Label');
   const incorrectLabel2 = document.getElementById('incorrect2Label');
-  
   correctLabel!.textContent = currentQuiz[0].CorrectAnswer;
   incorrectLabel1!.textContent = currentQuiz[0].FirstIncorrectAnswer;
   incorrectLabel2!.textContent = currentQuiz[0].SecondIncorrectAnswer;

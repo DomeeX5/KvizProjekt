@@ -2,3 +2,16 @@ img {
   max-width: 20%;
   height: auto;
 }
+
+p {
+  font-size:x-large;
+}
+
+body{
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  margin-top: auto;
+}
