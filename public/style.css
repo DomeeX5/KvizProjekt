@@ -15,3 +15,7 @@ body{
 footer{
   margin-top: auto;
 }
+
+#nextPage{
+  width: 100px;
+}

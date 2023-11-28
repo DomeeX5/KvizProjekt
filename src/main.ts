@@ -3,11 +3,10 @@ import { CountryService } from "./countryService";
 
 const countryService = new CountryService();
 
-document.addEventListener('DOMContentLoaded', listCountries);
+document.addEventListener('DOMContentLoaded', getDatabase);
 
-async function listCountries() {
+async function getDatabase() {
   const countries = await countryService.getAll();
-  //console.log(countries);
   const image = document.getElementById('image') as HTMLImageElement;
   const currentQuiz = getMultipleRandom(countries, 10);
   image.src = currentQuiz[0].CountryImage;
@@ -19,6 +18,7 @@ async function listCountries() {
   const correctLabel = document.getElementById('correctLabel');
   const incorrectLabel1 = document.getElementById('incorrect1Label');
   const incorrectLabel2 = document.getElementById('incorrect2Label');
+  const nextPageButton = document.getElementById('nextPage') as HTMLInputElement;
   correctLabel!.textContent = currentQuiz[0].CorrectAnswer;
   incorrectLabel1!.textContent = currentQuiz[0].FirstIncorrectAnswer;
   incorrectLabel2!.textContent = currentQuiz[0].SecondIncorrectAnswer;
@@ -28,7 +28,6 @@ async function listCountries() {
   
     return shuffled.slice(0, num);
   }
-
 }
 
 
