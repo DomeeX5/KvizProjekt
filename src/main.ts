@@ -1,7 +1,7 @@
 import { CountryService } from "./countryService";
 import { getMultipleRandom } from "./getMultipleRandom";
 import { CorrectAnswer } from "./country";
-import { newFunction } from "./randomOrder";
+import { RandomOrder } from "./randomOrder";
 const countryService = new CountryService();
 let final = new CorrectAnswer();
 let points = 0;
@@ -24,7 +24,7 @@ async function getDatabase() {
   correctLabel!.textContent = currentQuiz[0].CorrectAnswer;
   incorrectLabel1!.textContent = currentQuiz[0].FirstIncorrectAnswer;
   incorrectLabel2!.textContent = currentQuiz[0].SecondIncorrectAnswer;
-  newFunction();
+  RandomOrder();
   nextq!.addEventListener('click', () => {
     if (!correctInput.checked && !incorrectInput1.checked && !incorrectInput2.checked) {
       error!.textContent = "Kötelező kiválasztanod egy opciót!";
