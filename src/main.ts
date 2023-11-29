@@ -1,6 +1,7 @@
 import { CountryService } from "./countryService";
 import { getMultipleRandom } from "./getMultipleRandom";
 import { CorrectAnswer } from "./country";
+import { newFunction } from "./randomOrder";
 const countryService = new CountryService();
 let final = new CorrectAnswer();
 let points = 0;
@@ -23,22 +24,7 @@ async function getDatabase() {
   correctLabel!.textContent = currentQuiz[0].CorrectAnswer;
   incorrectLabel1!.textContent = currentQuiz[0].FirstIncorrectAnswer;
   incorrectLabel2!.textContent = currentQuiz[0].SecondIncorrectAnswer;
-
-    const form = document.getElementById('randomForm') as HTMLFormElement;
-    const radioArray = [correctInput, incorrectInput1, incorrectInput2]
-  
-    // Fisher-Yates shuffle
-    for (let i = radioArray.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [radioArray[i], radioArray[j]] = [radioArray[j], radioArray[i]];
-    }
-  
-    // Update the form with the randomized order
-    radioArray.forEach((radio, index) => {
-      form.insertBefore(radio.parentNode as Node, form.children[index]);
-    });
-  
-
+  newFunction();
   nextq!.addEventListener('click', () => {
     if (!correctInput.checked && !incorrectInput1.checked && !incorrectInput2.checked) {
       error!.textContent = "Kötelező kiválasztanod egy opciót!";
@@ -67,6 +53,4 @@ async function getDatabase() {
     }
   })
 }
-
-
 

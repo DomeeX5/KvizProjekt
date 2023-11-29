@@ -24,3 +24,10 @@ footer{
 #error{
   color: red;
 }
+
+li {
+  list-style: none;
+}
+ul {
+  padding-inline-start: 0px;
+}

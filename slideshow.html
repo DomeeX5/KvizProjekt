@@ -9,11 +9,19 @@
   </head>
   <body>
     <div id="app">
-      <form id="randomForm">
       <img src="" id="image" alt=""><br>
-      <input type="radio" name="first" id="correct" required><label for="correct" id="correctLabel"></label><br>
-      <input type="radio" name="first" id="incorrect1"><label for="incorrect1" id="incorrect1Label"></label><br>
-      <input type="radio" name="first" id="incorrect2"><label for="incorrect2" id="incorrect2Label"></label><br>
+      <form id="randomForm">
+      <ul>
+        <li>
+          <input type="radio" name="first" id="correct" required><label for="correct" id="correctLabel"></label><br>
+        </li>
+        <li>
+          <input type="radio" name="first" id="incorrect1"><label for="incorrect1" id="incorrect1Label"></label><br>
+        </li>
+        <li>
+          <input type="radio" name="first" id="incorrect2"><label for="incorrect2" id="incorrect2Label"></label><br>
+        </li>
+      </ul>
       <button id="nextq">Következő kérdés</button>
       <p id="error"></p>
       </form>
