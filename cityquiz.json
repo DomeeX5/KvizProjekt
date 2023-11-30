@@ -1,0 +1,243 @@
+
+[
+  {
+    "id": 1,
+    "CountryImage": "https://www.worldometers.info/img/flags/dr-flag.gif",
+    "Question": "Mi a Dominikai Köztársaság fővárosa?",
+    "CorrectAnswer":"Santo Domingo",
+    "FirstIncorrectAnswer": "Burkina Faso",
+    "SecondIncorrectAnswer": "Guinea"
+  },
+ {
+    "id": 2,
+    "CountryImage": "https://www.worldometers.info/img/flags/af-flag.gif",
+    "Question": "Mi a Afganisztán fővárosa?",
+    "CorrectAnswer":"Kabul",
+    "FirstIncorrectAnswer": "Kuala Lumpur",
+    "SecondIncorrectAnswer": "Kinshasa"
+  },
+     {
+    "id": 3,
+    "CountryImage": "https://www.worldometers.info/img/flags/as-flag.gif",
+    "Question": "Mi a Ausztrália fővárosa?",
+    "CorrectAnswer":"Canberra",
+    "FirstIncorrectAnswer": "Sydney",
+    "SecondIncorrectAnswer": "Bridgetown"
+  },
+     {
+    "id": 4,
+    "CountryImage": "https://www.worldometers.info/img/flags/ja-flag.gif",
+    "Question": "Mi Japán fővárosa?",
+    "CorrectAnswer":"Tokió",
+    "FirstIncorrectAnswer": "Hirosima",
+    "SecondIncorrectAnswer": "Nagasaki"
+  },
+     {
+    "id": 5,
+    "CountryImage": "https://www.worldometers.info/img/flags/fi-flag.gif",
+    "Question": "Mi Finnország fővárosa?",
+    "CorrectAnswer":"Helsinki",
+    "FirstIncorrectAnswer": "Vaasa",
+    "SecondIncorrectAnswer": "Koppenhága"
+  },
+     {
+    "id": 6,
+    "CountryImage": "https://www.worldometers.info/img/flags/qa-flag.gif",
+    "Question": "Mi Katar fővárosa?",
+    "CorrectAnswer":"Doha",
+    "FirstIncorrectAnswer":"Abu-Dzabi",
+    "SecondIncorrectAnswer": "Dubaj"
+  },
+     {
+    "id": 7,
+    "CountryImage": "https://www.worldometers.info/img/flags/pm-flag.gif",
+    "Question": "Mi Panama fővárosa?",
+    "CorrectAnswer":"Panama City",
+    "FirstIncorrectAnswer": "Santiago",
+    "SecondIncorrectAnswer": "La Palma"
+  },
+     {
+    "id": 8,
+    "CountryImage": "https://www.worldometers.info/img/flags/pp-flag.gif",
+    "Question": "Mi Pápau Új-Guinea fővárosa?",
+    "CorrectAnswer":"Port Moresby",
+    "FirstIncorrectAnswer": "Palikir",
+    "SecondIncorrectAnswer": "Honiara"
+  },
+     {
+    "id": 9,
+    "CountryImage": "https://www.worldometers.info/img/flags/bg-flag.gif",
+    "Question": "Mi Banglades fővárosa?",
+    "CorrectAnswer":"Dakka",
+    "FirstIncorrectAnswer": "Manipur",
+    "SecondIncorrectAnswer": "Chittagong"
+  },
+     {
+    "id": 10,
+    "CountryImage": "https://www.worldometers.info/img/flags/ci-flag.gif",
+    "Question": "Mi Chile fővárosa?",
+    "CorrectAnswer":"Santiago",
+    "FirstIncorrectAnswer": "La Paz",
+    "SecondIncorrectAnswer": "Buenos Aires"
+  },
+     {
+    "id": 11,
+    "CountryImage": "https://www.worldometers.info/img/flags/lu-flag.gif",
+    "Question": "Mi Luxemburg fővárosa?",
+    "CorrectAnswer":"ÉLuxembourg",
+    "FirstIncorrectAnswer": "Vaduz",
+    "SecondIncorrectAnswer": "Walferdange"
+  },
+     {
+    "id": 12,
+    "CountryImage": "https://www.worldometers.info/img/flags/ri-flag.gif",
+    "Question": "Mi Szerbia fővárosa?",
+    "CorrectAnswer":"Belgrád",
+    "FirstIncorrectAnswer": "Szarajevo",
+    "SecondIncorrectAnswer": "Pristina"
+  },
+     {
+    "id": 13,
+    "CountryImage": "https://www.worldometers.info/img/flags/my-flag.gif",
+    "Question": "Mi Malajzia fővárosa?",
+    "CorrectAnswer":"Kuala Lumpur",
+    "FirstIncorrectAnswer": "Kuala Muda",
+    "SecondIncorrectAnswer": "Phuket"
+  },
+     {
+    "id": 14,
+    "CountryImage": "https://www.worldometers.info/img/flags/ro-flag.gif",
+    "Question": "Mi Románia fővárosa?",
+    "CorrectAnswer":"Bukarest",
+    "FirstIncorrectAnswer": "Temesvár",
+    "SecondIncorrectAnswer": "Budapest"
+  },
+     {
+    "id": 15,
+    "CountryImage": "https://www.worldometers.info/img/flags/hu-flag.gif",
+    "Question": "Mi Magyarország fővárosa?",
+    "CorrectAnswer":"Budapest",
+    "FirstIncorrectAnswer": "Bukarest",
+    "SecondIncorrectAnswer": "Debrecen"
+  },
+     {
+    "id": 16,
+    "CountryImage": "https://www.worldometers.info/img/flags/mu-flag.gif",
+    "Question": "Mi Omán fővárosa?",
+    "CorrectAnswer":"Maszkat",
+    "FirstIncorrectAnswer": "Doha",
+    "SecondIncorrectAnswer": "Dubaj"
+  },
+     {
+    "id": 17,
+    "CountryImage": "https://www.worldometers.info/img/flags/br-flag.gif",
+    "Question": "Mi Brazília fővárosa?",
+    "CorrectAnswer":" Brasília",
+    "FirstIncorrectAnswer": "Rio de Janeiro",
+    "SecondIncorrectAnswer": "Sao Paulo"
+  },
+     {
+    "id": 18,
+    "CountryImage": "https://www.worldometers.info/img/flags/tx-flag.gif",
+    "Question": "Mi Türkmenisztán fővárosa?",
+    "CorrectAnswer":"Asgabat",
+    "FirstIncorrectAnswer": "Taskent",
+    "SecondIncorrectAnswer": "Biskek"
+  },
+     {
+    "id": 19,
+    "CountryImage": "https://www.worldometers.info/img/flags/ca-flag.gif",
+    "Question": "Mi Kanada fővárosa?",
+    "CorrectAnswer":"Ottawa",
+    "FirstIncorrectAnswer": "Vancouver",
+    "SecondIncorrectAnswer": "Montreal"
+  },
+     {
+    "id": 20,
+    "CountryImage": "https://www.worldometers.info/img/flags/gm-flag.gif",
+    "Question": "Mi Németország fővárosa?",
+    "CorrectAnswer":"Berlin",
+    "FirstIncorrectAnswer": "Amszterdam",
+    "SecondIncorrectAnswer": "Hamburg"
+  },
+     {
+    "id": 21,
+    "CountryImage": "https://www.worldometers.info/img/flags/sy-flag.gif",
+    "Question": "Mi Szíria fővárosa?",
+    "CorrectAnswer":"Damaszkusz",
+    "FirstIncorrectAnswer": "Aleppo",
+    "SecondIncorrectAnswer": "Beirut"
+  },
+     {
+    "id": 22,
+    "CountryImage": "https://www.worldometers.info/img/flags/ni-flag.gif",
+    "Question": "Mi Nigéria fővárosa?",
+    "CorrectAnswer":"Abuja",
+    "FirstIncorrectAnswer": "lagos",
+    "SecondIncorrectAnswer": "Ibadan"
+  },
+     {
+    "id": 23,
+    "CountryImage": "https://www.worldometers.info/img/flags/ng-flag.gif",
+    "Question": "Mi Niger fővárosa?",
+    "CorrectAnswer":"Niamey",
+    "FirstIncorrectAnswer": "Amman",
+    "SecondIncorrectAnswer": "Niger City"
+  },
+     {
+    "id": 24,
+    "CountryImage": "https://www.worldometers.info/img/flags/ku-flag.gif",
+    "Question": "Mi Kuvait fővárosa?",
+    "CorrectAnswer":"Kuvait",
+    "FirstIncorrectAnswer": "Amman",
+    "SecondIncorrectAnswer": "Umm Qasr"
+  },
+     {
+    "id": 25,
+    "CountryImage": "https://www.worldometers.info/img/flags/fr-flag.gif",
+    "Question": "Mi Franciaország fővárosa?",
+    "CorrectAnswer":"Párizs",
+    "FirstIncorrectAnswer": "Lyon",
+    "SecondIncorrectAnswer": "Marseille"
+  },
+     {
+    "id": 26,
+    "CountryImage": "",
+    "Question": "",
+    "CorrectAnswer":"",
+    "FirstIncorrectAnswer": "",
+    "SecondIncorrectAnswer": ""
+  },
+     {
+    "id": 27,
+    "CountryImage": "",
+    "Question": "",
+    "CorrectAnswer":"",
+    "FirstIncorrectAnswer": "",
+    "SecondIncorrectAnswer": ""
+  },
+     {
+    "id": 28,
+    "CountryImage": "",
+    "Question": "",
+    "CorrectAnswer":"",
+    "FirstIncorrectAnswer": "",
+    "SecondIncorrectAnswer": ""
+  },
+     {
+    "id": 29,
+    "CountryImage": "",
+    "Question": "",
+    "CorrectAnswer":"",
+    "FirstIncorrectAnswer": "",
+    "SecondIncorrectAnswer": ""
+  },
+     {
+    "id": 30,
+    "CountryImage": "",
+    "Question": "",
+    "CorrectAnswer":"",
+    "FirstIncorrectAnswer": "",
+    "SecondIncorrectAnswer": ""
+  },
+]
