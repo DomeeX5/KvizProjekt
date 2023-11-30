@@ -1,11 +1,11 @@
-img {
+#image {
   max-width: 20%;
   height: auto;
 }
 
 p {
   font-size:x-large;
-  line-height: 3px;
+  line-height: 20px;
 }
 
 body{
@@ -17,8 +17,9 @@ footer{
   margin-top: auto;
 }
 
-#nextPage{
+#bootstrap-overrides #nextPage{
   width: 100px;
+  
 }
 
 #error{
@@ -28,6 +29,12 @@ footer{
 li {
   list-style: none;
 }
+
 ul {
   padding-inline-start: 0px;
+}
+
+#bootstrap-overrides #flagquizimage {
+  width: 70px;
+  height: 10rem;
 }

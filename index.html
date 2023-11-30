@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <title>Bemutatkozás</title>
 </head>
 <body>
@@ -11,10 +12,21 @@
     <p>Ez a weblap a Petrik Lajos szakközépiskola 2/14S szoftverfejlesztő osztály projektfeladata.</p>
     <p>A projekt témája egy zászlókkal kapcsolatos kvíz. </p>
     <p>A kvíz elkezdéséhez kattints a gombra!</p>
-    <input type="button" id="nextPage" value="Kvíz kezdése">
+    <div class="card" style="width: 18rem; height: 23rem;">
+        <img id="flagquizimage" src="https://flagemoji.com/wp-content/uploads/2020/03/Untitled-design-11.png"  class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Zászlók kvíz</h5>
+          <p class="card-text">10 kérdésből álló kvíz, 30 zászlót tartalmaz.</p>
+          <div class="text-center">
+             <a id="nextPage" class="btn btn-primary ">Kvíz kezdése</a>
+         </div>
+        </div>
+      </div>
+    
     <footer>
         <p>Készítői: Török Levente (frontend), Major Dominik Zsolt (backend), Szupkai Richárd (adatbázis)</p>
     </footer>
     <script src="./src/firstpage.ts"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>

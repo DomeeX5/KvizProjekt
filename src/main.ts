@@ -1,10 +1,8 @@
 import { CountryService } from "./countryService";
 import { getMultipleRandom } from "./getMultipleRandom";
-import { CorrectAnswer } from "./country";
 import { RandomOrder } from "./randomOrder";
 const countryService = new CountryService();
-let final = new CorrectAnswer();
-let points = 0;
+localStorage.setItem("points", "0")
 document.addEventListener('DOMContentLoaded', getDatabase);
 
 async function getDatabase() {
@@ -29,23 +27,24 @@ async function getDatabase() {
     if (!correctInput.checked && !incorrectInput1.checked && !incorrectInput2.checked) {
       error!.textContent = "Kötelező kiválasztanod egy opciót!";
     } else {
-      if(correctInput.checked && !incorrectInput1.checked && !incorrectInput2.checked){
+      if(correctInput.checked){
+        let points = parseInt(localStorage.getItem("points")!);
         points++;
+        localStorage.setItem("points", points.toString())
         console.log(points)
       }
+      RandomOrder();
       image.src = currentQuiz[i].CountryImage;
       correctLabel!.textContent = currentQuiz[i].CorrectAnswer;
       incorrectLabel1!.textContent = currentQuiz[i].FirstIncorrectAnswer;
       incorrectLabel2!.textContent = currentQuiz[i].SecondIncorrectAnswer;
-      i = i + 1;
+      i++;
       error!.textContent = "";
       correctInput.checked = false;
       incorrectInput1.checked = false;
       incorrectInput2.checked = false;
-      
       if (i == 10) {
         nextq.textContent = "Kérdőív befejezése"
-        final.points = points;
         nextq!.addEventListener('click', () => {
           window.location.href = './end.html'
         })
