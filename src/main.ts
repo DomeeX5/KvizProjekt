@@ -1,8 +1,8 @@
-import { CountryService } from "./countryService";
+import { CountryService } from "./quizService";
 import { getMultipleRandom } from "./getMultipleRandom";
 import { RandomOrder } from "./randomOrder";
 const countryService = new CountryService();
-localStorage.setItem("points", "0")
+localStorage.setItem("points", "0");
 document.addEventListener('DOMContentLoaded', getDatabase);
 
 async function getDatabase() {

@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <title>Városok kvíz</title>
 </head>
 <body>
-    
+    <div id="app">
+        <img src="" id="imageCity" alt=""><br>
+        <p id="questionCity"></p>
+        <ul>
+          <li>
+            <input type="radio" name="first" id="correctCityInput" required><label for="correctCityInput" id="correctCityLabel"></label><br>
+          </li>
+          <li>
+            <input type="radio" name="first" id="incorrectCityInput1"><label for="incorrectCityInput1" id="incorrectCity1Label"></label><br>
+          </li>
+          <li>
+            <input type="radio" name="first" id="incorrectCityInput2"><label for="incorrectCityInput2" id="incorrectCity2Label"></label><br>
+          </li>
+        </ul>
+        <button id="nextqCity" class="btn btn-primary">Következő kérdés</button>
+        <p id="errorCity"></p>
+      </div>
+      <script type="module" src="./src/cityquiz.ts"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
 [
   {
     "id": 1,
-    "CountryImage": "https://www.worldometers.info/img/flags/dr-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/dr-flag.gif",
     "Question": "Mi a Dominikai Köztársaság fővárosa?",
     "CorrectAnswer":"Santo Domingo",
     "FirstIncorrectAnswer": "Burkina Faso",
@@ -10,7 +10,7 @@
   },
  {
     "id": 2,
-    "CountryImage": "https://www.worldometers.info/img/flags/af-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/af-flag.gif",
     "Question": "Mi a Afganisztán fővárosa?",
     "CorrectAnswer":"Kabul",
     "FirstIncorrectAnswer": "Kuala Lumpur",
@@ -18,7 +18,7 @@
   },
      {
     "id": 3,
-    "CountryImage": "https://www.worldometers.info/img/flags/as-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/as-flag.gif",
     "Question": "Mi a Ausztrália fővárosa?",
     "CorrectAnswer":"Canberra",
     "FirstIncorrectAnswer": "Sydney",
@@ -26,7 +26,7 @@
   },
      {
     "id": 4,
-    "CountryImage": "https://www.worldometers.info/img/flags/ja-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/ja-flag.gif",
     "Question": "Mi Japán fővárosa?",
     "CorrectAnswer":"Tokió",
     "FirstIncorrectAnswer": "Hirosima",
@@ -34,7 +34,7 @@
   },
      {
     "id": 5,
-    "CountryImage": "https://www.worldometers.info/img/flags/fi-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/fi-flag.gif",
     "Question": "Mi Finnország fővárosa?",
     "CorrectAnswer":"Helsinki",
     "FirstIncorrectAnswer": "Vaasa",
@@ -42,7 +42,7 @@
   },
      {
     "id": 6,
-    "CountryImage": "https://www.worldometers.info/img/flags/qa-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/qa-flag.gif",
     "Question": "Mi Katar fővárosa?",
     "CorrectAnswer":"Doha",
     "FirstIncorrectAnswer":"Abu-Dzabi",
@@ -50,7 +50,7 @@
   },
      {
     "id": 7,
-    "CountryImage": "https://www.worldometers.info/img/flags/pm-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/pm-flag.gif",
     "Question": "Mi Panama fővárosa?",
     "CorrectAnswer":"Panama City",
     "FirstIncorrectAnswer": "Santiago",
@@ -58,7 +58,7 @@
   },
      {
     "id": 8,
-    "CountryImage": "https://www.worldometers.info/img/flags/pp-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/pp-flag.gif",
     "Question": "Mi Pápau Új-Guinea fővárosa?",
     "CorrectAnswer":"Port Moresby",
     "FirstIncorrectAnswer": "Palikir",
@@ -66,7 +66,7 @@
   },
      {
     "id": 9,
-    "CountryImage": "https://www.worldometers.info/img/flags/bg-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/bg-flag.gif",
     "Question": "Mi Banglades fővárosa?",
     "CorrectAnswer":"Dakka",
     "FirstIncorrectAnswer": "Manipur",
@@ -74,7 +74,7 @@
   },
      {
     "id": 10,
-    "CountryImage": "https://www.worldometers.info/img/flags/ci-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/ci-flag.gif",
     "Question": "Mi Chile fővárosa?",
     "CorrectAnswer":"Santiago",
     "FirstIncorrectAnswer": "La Paz",
@@ -82,7 +82,7 @@
   },
      {
     "id": 11,
-    "CountryImage": "https://www.worldometers.info/img/flags/lu-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/lu-flag.gif",
     "Question": "Mi Luxemburg fővárosa?",
     "CorrectAnswer":"ÉLuxembourg",
     "FirstIncorrectAnswer": "Vaduz",
@@ -90,7 +90,7 @@
   },
      {
     "id": 12,
-    "CountryImage": "https://www.worldometers.info/img/flags/ri-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/ri-flag.gif",
     "Question": "Mi Szerbia fővárosa?",
     "CorrectAnswer":"Belgrád",
     "FirstIncorrectAnswer": "Szarajevo",
@@ -98,7 +98,7 @@
   },
      {
     "id": 13,
-    "CountryImage": "https://www.worldometers.info/img/flags/my-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/my-flag.gif",
     "Question": "Mi Malajzia fővárosa?",
     "CorrectAnswer":"Kuala Lumpur",
     "FirstIncorrectAnswer": "Kuala Muda",
@@ -106,7 +106,7 @@
   },
      {
     "id": 14,
-    "CountryImage": "https://www.worldometers.info/img/flags/ro-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/ro-flag.gif",
     "Question": "Mi Románia fővárosa?",
     "CorrectAnswer":"Bukarest",
     "FirstIncorrectAnswer": "Temesvár",
@@ -114,7 +114,7 @@
   },
      {
     "id": 15,
-    "CountryImage": "https://www.worldometers.info/img/flags/hu-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/hu-flag.gif",
     "Question": "Mi Magyarország fővárosa?",
     "CorrectAnswer":"Budapest",
     "FirstIncorrectAnswer": "Bukarest",
@@ -122,7 +122,7 @@
   },
      {
     "id": 16,
-    "CountryImage": "https://www.worldometers.info/img/flags/mu-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/mu-flag.gif",
     "Question": "Mi Omán fővárosa?",
     "CorrectAnswer":"Maszkat",
     "FirstIncorrectAnswer": "Doha",
@@ -130,7 +130,7 @@
   },
      {
     "id": 17,
-    "CountryImage": "https://www.worldometers.info/img/flags/br-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/br-flag.gif",
     "Question": "Mi Brazília fővárosa?",
     "CorrectAnswer":" Brasília",
     "FirstIncorrectAnswer": "Rio de Janeiro",
@@ -138,7 +138,7 @@
   },
      {
     "id": 18,
-    "CountryImage": "https://www.worldometers.info/img/flags/tx-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/tx-flag.gif",
     "Question": "Mi Türkmenisztán fővárosa?",
     "CorrectAnswer":"Asgabat",
     "FirstIncorrectAnswer": "Taskent",
@@ -146,7 +146,7 @@
   },
      {
     "id": 19,
-    "CountryImage": "https://www.worldometers.info/img/flags/ca-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/ca-flag.gif",
     "Question": "Mi Kanada fővárosa?",
     "CorrectAnswer":"Ottawa",
     "FirstIncorrectAnswer": "Vancouver",
@@ -154,7 +154,7 @@
   },
      {
     "id": 20,
-    "CountryImage": "https://www.worldometers.info/img/flags/gm-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/gm-flag.gif",
     "Question": "Mi Németország fővárosa?",
     "CorrectAnswer":"Berlin",
     "FirstIncorrectAnswer": "Amszterdam",
@@ -162,7 +162,7 @@
   },
      {
     "id": 21,
-    "CountryImage": "https://www.worldometers.info/img/flags/sy-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/sy-flag.gif",
     "Question": "Mi Szíria fővárosa?",
     "CorrectAnswer":"Damaszkusz",
     "FirstIncorrectAnswer": "Aleppo",
@@ -170,7 +170,7 @@
   },
      {
     "id": 22,
-    "CountryImage": "https://www.worldometers.info/img/flags/ni-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/ni-flag.gif",
     "Question": "Mi Nigéria fővárosa?",
     "CorrectAnswer":"Abuja",
     "FirstIncorrectAnswer": "lagos",
@@ -178,7 +178,7 @@
   },
      {
     "id": 23,
-    "CountryImage": "https://www.worldometers.info/img/flags/ng-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/ng-flag.gif",
     "Question": "Mi Niger fővárosa?",
     "CorrectAnswer":"Niamey",
     "FirstIncorrectAnswer": "Amman",
@@ -186,7 +186,7 @@
   },
      {
     "id": 24,
-    "CountryImage": "https://www.worldometers.info/img/flags/ku-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/ku-flag.gif",
     "Question": "Mi Kuvait fővárosa?",
     "CorrectAnswer":"Kuvait",
     "FirstIncorrectAnswer": "Amman",
@@ -194,7 +194,7 @@
   },
      {
     "id": 25,
-    "CountryImage": "https://www.worldometers.info/img/flags/fr-flag.gif",
+    "CityImage": "https://www.worldometers.info/img/flags/fr-flag.gif",
     "Question": "Mi Franciaország fővárosa?",
     "CorrectAnswer":"Párizs",
     "FirstIncorrectAnswer": "Lyon",
@@ -202,7 +202,7 @@
   },
      {
     "id": 26,
-    "CountryImage": "",
+    "CityImage": "",
     "Question": "",
     "CorrectAnswer":"",
     "FirstIncorrectAnswer": "",
@@ -210,7 +210,7 @@
   },
      {
     "id": 27,
-    "CountryImage": "",
+    "CityImage": "",
     "Question": "",
     "CorrectAnswer":"",
     "FirstIncorrectAnswer": "",
@@ -218,7 +218,7 @@
   },
      {
     "id": 28,
-    "CountryImage": "",
+    "CityImage": "",
     "Question": "",
     "CorrectAnswer":"",
     "FirstIncorrectAnswer": "",
@@ -226,7 +226,7 @@
   },
      {
     "id": 29,
-    "CountryImage": "",
+    "CityImage": "",
     "Question": "",
     "CorrectAnswer":"",
     "FirstIncorrectAnswer": "",
@@ -234,10 +234,10 @@
   },
      {
     "id": 30,
-    "CountryImage": "",
+    "CityImage": "",
     "Question": "",
     "CorrectAnswer":"",
     "FirstIncorrectAnswer": "",
     "SecondIncorrectAnswer": ""
-  },
+  }
 ]
