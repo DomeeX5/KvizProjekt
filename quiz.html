@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
+    <link rel="stylesheet" href="./public/Slider2.0.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
@@ -22,165 +23,185 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 2"></button>
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="" class="d-block w-100" alt="zaszlo" id="first_slideIMG">
-      <ul>
-        <li>
-          <input type="radio" name="first" id="correct" required><label for="correct" id="correctLabel"></label><br>
-        </li>
-        <li>
-          <input type="radio" name="first" id="incorrect1"><label for="incorrect1" id="incorrect1Label"></label><br>
-        </li>
-        <li>
-          <input type="radio" name="first" id="incorrect2"><label for="incorrect2" id="incorrect2Label"></label><br>
-        </li>
-      </ul>
-      <button id="nextq">Következő kérdés</button>
-      <p id="error"></p>
+    <div class="carousel-item active c-item">
+      <img src="" class="c-img" alt="zaszlo" id="first_slideIMG" >
+      <div class="carousel-caption d-none d-md-block">
+        <ul>
+          <li>
+            <input type="radio" name="first" id="correct" required><label for="correct" id="correctLabel"></label><br>
+          </li>
+          <li>
+            <input type="radio" name="first" id="incorrect1"><label for="incorrect1" id="incorrect1Label"></label><br>
+          </li>
+          <li>
+            <input type="radio" name="first" id="incorrect2"><label for="incorrect2" id="incorrect2Label"></label><br>
+          </li>
+        </ul>
+        <button id="nextq">Következő kérdés</button>
+        <p id="error"></p>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="" class="d-block w-100" alt="zaszlo" id="second_slideIMG">
-      <ul>
-        <li>
-          <input type="radio" name="first" id="correct" required><label for="correct" id="correctLabel"></label><br>
-        </li>
-        <li>
-          <input type="radio" name="first" id="incorrect1"><label for="incorrect1" id="incorrect1Label"></label><br>
-        </li>
-        <li>
-          <input type="radio" name="first" id="incorrect2"><label for="incorrect2" id="incorrect2Label"></label><br>
-        </li>
-      </ul>
-      <button id="nextq">Következő kérdés</button>
-      <p id="error"></p>
+    <div class="carousel-item c-item">
+      <img src="" class="d-block w-100 c-img" alt="zaszlo" id="second_slideIMG">
+      <div class="carousel-caption d-none d-md-block">
+        <ul>
+          <li>
+            <input type="radio" name="second" id="correct.2" required><label for="correct" id="correctLabel.2"></label><br>
+          </li>
+          <li>
+            <input type="radio" name="second" id="incorrect1.2"><label for="incorrect1" id="incorrect1Label.2"></label><br>
+          </li>
+          <li>
+            <input type="radio" name="second" id="incorrect2.2"><label for="incorrect2" id="incorrect2Label.2"></label><br>
+          </li>
+        </ul>
+        <button id="nextq">Következő kérdés</button>
+        <p id="error"></p>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img img src="" class="d-block w-100" alt="zaszlo" id="third_slideIMG">
-      <ul>
-        <li>
-          <input type="radio" name="first" id="correct" required><label for="correct" id="correctLabel"></label><br>
-        </li>
-        <li>
-          <input type="radio" name="first" id="incorrect1"><label for="incorrect1" id="incorrect1Label"></label><br>
-        </li>
-        <li>
-          <input type="radio" name="first" id="incorrect2"><label for="incorrect2" id="incorrect2Label"></label><br>
-        </li>
-      </ul>
-      <button id="nextq">Következő kérdés</button>
-      <p id="error"></p>
+    <div class="carousel-item c-item">
+      <img img src="" class="d-block w-100 c-img" alt="zaszlo" id="third_slideIMG">
+      <div class="carousel-caption d-none d-md-block">
+        <ul>
+          <li>
+            <input type="radio" name="third" id="correct.3" required><label for="correct" id="correctLabel.3"></label><br>
+          </li>
+          <li>
+            <input type="radio" name="third" id="incorrect1.3"><label for="incorrect1" id="incorrect1Label.3"></label><br>
+          </li>
+          <li>
+            <input type="radio" name="third" id="incorrect2.3"><label for="incorrect2" id="incorrect2Label.3"></label><br>
+          </li>
+        </ul>
+        <button id="nextq">Következő kérdés</button>
+        <p id="error"></p>
+      </div>
     </div>
-    <div class="carousel-item">
-        <img img src="" class="d-block w-100" alt="zaszlo" id="fourth_slideIMG">
-        <ul>
+    <div class="carousel-item c-item">
+        <img img src="" class="d-block w-100 c-img" alt="zaszlo" id="fourth_slideIMG">
+        <div class="carousel-caption d-none d-md-block">
+          <ul>
             <li>
-              <input type="radio" name="first" id="correct" required><label for="correct" id="correctLabel"></label><br>
+              <input type="radio" name="fourth" id="correct.4" required><label for="correct" id="correctLabel.4"></label><br>
             </li>
             <li>
-              <input type="radio" name="first" id="incorrect1"><label for="incorrect1" id="incorrect1Label"></label><br>
+              <input type="radio" name="fourth" id="incorrect1.4"><label for="incorrect1" id="incorrect1Label.4"></label><br>
             </li>
             <li>
-              <input type="radio" name="first" id="incorrect2"><label for="incorrect2" id="incorrect2Label"></label><br>
+              <input type="radio" name="fourth" id="incorrect2.4"><label for="incorrect2" id="incorrect2Label.4"></label><br>
             </li>
           </ul>
           <button id="nextq">Következő kérdés</button>
           <p id="error"></p>
+        </div>
       </div>
-      <div class="carousel-item">
-        <img img src="" class="d-block w-100" alt="zaszlo" id="fifth_slideIMG">
-        <ul>
+      <div class="carousel-item c-item">
+        <img img src="" class="d-block w-100 c-img" alt="zaszlo" id="fifth_slideIMG">
+        <div class="carousel-caption d-none d-md-block">
+          <ul>
             <li>
-              <input type="radio" name="first" id="correct" required><label for="correct" id="correctLabel"></label><br>
+              <input type="radio" name="fifth" id="correct.5" required><label for="correct" id="correctLabel.5"></label><br>
             </li>
             <li>
-              <input type="radio" name="first" id="incorrect1"><label for="incorrect1" id="incorrect1Label"></label><br>
+              <input type="radio" name="fifth" id="incorrect1.5"><label for="incorrect1" id="incorrect1Label.5"></label><br>
             </li>
             <li>
-              <input type="radio" name="first" id="incorrect2"><label for="incorrect2" id="incorrect2Label"></label><br>
+              <input type="radio" name="fifth" id="incorrect2.5"><label for="incorrect2" id="incorrect2Label.5"></label><br>
             </li>
           </ul>
           <button id="nextq">Következő kérdés</button>
           <p id="error"></p>
+        </div>
       </div>
-      <div class="carousel-item">
-        <img img src="" class="d-block w-100" alt="zaszlo" id="sixth_slideIMG">
-        <ul>
+      <div class="carousel-item c-item">
+        <img img src="" class="d-block w-100 c-img" alt="zaszlo" id="sixth_slideIMG">
+        <div class="carousel-caption d-none d-md-block">
+          <ul>
             <li>
-              <input type="radio" name="first" id="correct" required><label for="correct" id="correctLabel"></label><br>
+              <input type="radio" name="sixth" id="correct.6" required><label for="correct" id="correctLabel.6"></label><br>
             </li>
             <li>
-              <input type="radio" name="first" id="incorrect1"><label for="incorrect1" id="incorrect1Label"></label><br>
+              <input type="radio" name="sixth" id="incorrect1.6"><label for="incorrect1" id="incorrect1Label.6"></label><br>
             </li>
             <li>
-              <input type="radio" name="first" id="incorrect2"><label for="incorrect2" id="incorrect2Label"></label><br>
+              <input type="radio" name="sixth" id="incorrect2.6"><label for="incorrect2" id="incorrect2Label.6"></label><br>
             </li>
           </ul>
           <button id="nextq">Következő kérdés</button>
           <p id="error"></p>
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="" class="d-block w-100" alt="zaszlo" id="seventh_slideIMG">
-        <ul>
+      <div class="carousel-item c-item">
+        <img img src="" class="d-block w-100 c-img" alt="zaszlo" id="seventh_slideIMG">
+        <div class="carousel-caption d-none d-md-block">
+          <ul>
             <li>
-              <input type="radio" name="first" id="correct" required><label for="correct" id="correctLabel"></label><br>
+              <input type="radio" name="seventh" id="correct.7" required><label for="correct" id="correctLabel.7"></label><br>
             </li>
             <li>
-              <input type="radio" name="first" id="incorrect1"><label for="incorrect1" id="incorrect1Label"></label><br>
+              <input type="radio" name="seventh" id="incorrect1.7"><label for="incorrect1" id="incorrect1Label.7"></label><br>
             </li>
             <li>
-              <input type="radio" name="first" id="incorrect2"><label for="incorrect2" id="incorrect2Label"></label><br>
+              <input type="radio" name="seventh" id="incorrect2.7"><label for="incorrect2" id="incorrect2Label.7"></label><br>
             </li>
           </ul>
           <button id="nextq">Következő kérdés</button>
           <p id="error"></p>
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="" class="d-block w-100" alt="zaszlo" id="eighth_slideIMG">
-        <ul>
+      <div class="carousel-item c-item">
+        <img src="" class="d-block w-100 c-img" alt="zaszlo" id="eighth_slideIMG">
+        <div class="carousel-caption d-none d-md-block">
+          <ul>
             <li>
-              <input type="radio" name="first" id="correct" required><label for="correct" id="correctLabel"></label><br>
+              <input type="radio" name="eight" id="correct.8" required><label for="correct" id="correctLabel.8"></label><br>
             </li>
             <li>
-              <input type="radio" name="first" id="incorrect1"><label for="incorrect1" id="incorrect1Label"></label><br>
+              <input type="radio" name="eight" id="incorrect1.8"><label for="incorrect1" id="incorrect1Label.8"></label><br>
             </li>
             <li>
-              <input type="radio" name="first" id="incorrect2"><label for="incorrect2" id="incorrect2Label"></label><br>
+              <input type="radio" name="eight" id="incorrect2.8"><label for="incorrect2" id="incorrect2Label.8"></label><br>
             </li>
           </ul>
           <button id="nextq">Következő kérdés</button>
           <p id="error"></p>
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="" class="d-block w-100" alt="zaszlo" id="ninth_slideIMG">
-        <ul>
+      <div class="carousel-item c-item">
+        <img src="" class="d-block w-100 c-img" alt="zaszlo" id="ninth_slideIMG">
+        <div class="carousel-caption d-none d-md-block">
+          <ul>
             <li>
-              <input type="radio" name="first" id="correct" required><label for="correct" id="correctLabel"></label><br>
+              <input type="radio" name="ninth" id="correct.9" required><label for="correct" id="correctLabel.9"></label><br>
             </li>
             <li>
-              <input type="radio" name="first" id="incorrect1"><label for="incorrect1" id="incorrect1Label"></label><br>
+              <input type="radio" name="ninth" id="incorrect1.9"><label for="incorrect1" id="incorrect1Label.9"></label><br>
             </li>
             <li>
-              <input type="radio" name="first" id="incorrect2"><label for="incorrect2" id="incorrect2Label"></label><br>
+              <input type="radio" name="ninth" id="incorrect2.9"><label for="incorrect2" id="incorrect2Label.9"></label><br>
             </li>
           </ul>
           <button id="nextq">Következő kérdés</button>
           <p id="error"></p>
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="" class="d-block w-100" alt="zaszlo" id="tenth_slideIMG">
-        <ul>
+      <div class="carousel-item c-item">
+        <img src="" class="d-block w-100 c-img" alt="zaszlo" id="tenth_slideIMG">
+        <div class="carousel-caption d-none d-md-block">
+          <ul>
             <li>
-              <input type="radio" name="first" id="correct" required><label for="correct" id="correctLabel"></label><br>
+              <input type="radio" name="tenth" id="correct.10" required><label for="correct" id="correctLabel.10"></label><br>
             </li>
             <li>
-              <input type="radio" name="first" id="incorrect1"><label for="incorrect1" id="incorrect1Label"></label><br>
+              <input type="radio" name="tenth" id="incorrect1.10"><label for="incorrect1" id="incorrect1Label.10"></label><br>
             </li>
             <li>
-              <input type="radio" name="first" id="incorrect2"><label for="incorrect2" id="incorrect2Label"></label><br>
+              <input type="radio" name="tenth" id="incorrect2.10"><label for="incorrect2" id="incorrect2Label.10"></label><br>
             </li>
           </ul>
           <button id="nextq">Következő kérdés</button>
           <p id="error"></p>
+        </div>
       </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

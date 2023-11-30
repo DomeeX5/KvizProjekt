@@ -1,0 +1,13 @@
+.c-item{
+    height: 640px;
+    background-color: dimgrey;
+}
+.c-img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    padding-left: 30px;
+}
+
+
+
