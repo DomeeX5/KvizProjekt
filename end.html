@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <p id="points">Pontszámod: </p>
+    <p id="points"></p>
+    <div id="app2" class="">
+        <img src="" id="image" alt=""><br>
+        <ul>
+          <li>
+            <input type="radio" name="first" id="correct" disabled><label for="correct" id="correctLabel"></label><br>
+          </li>
+          <li>
+            <input type="radio" name="first" id="incorrect1" disabled><label for="incorrect1" id="incorrect1Label"></label><br>
+          </li>
+          <li>
+            <input type="radio" name="first" id="incorrect2" disabled><label for="incorrect2" id="incorrect2Label"></label><br>
+          </li>
+        </ul>
     <a href="/index.html" class="btn btn-primary">Vissza a főoldalra</a>
     <script type="module" src="/src/lastpage.ts"></script>
 </body>
