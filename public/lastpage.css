@@ -1,0 +1,12 @@
+.lastpageImage {
+    max-width: 10%;
+    height: auto;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
