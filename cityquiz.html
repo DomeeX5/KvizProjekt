@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./public/w3.css">
     <title>Városok kvíz</title>
 </head>
 <body>
-    <div id="app">
+    <div id="app" class="w3-animate-bottom w3-center">
+      <div id="app2" class="">
         <img src="" id="imageCity" alt=""><br>
         <p id="questionCity"></p>
         <ul>
@@ -25,6 +27,7 @@
         <button id="nextqCity" class="btn btn-primary">Következő kérdés</button>
         <p id="errorCity"></p>
       </div>
+    </div>
       <script type="module" src="./src/cityquiz.ts"></script>
 </body>
 </html>

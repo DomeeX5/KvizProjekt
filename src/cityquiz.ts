@@ -3,11 +3,16 @@ import { getMultipleRandomCity } from "./getMultipleRandom";
 import { RandomOrder } from "./randomOrder";
 const cityService = new CityService();
 localStorage.setItem("points", "0");
+
+
 document!.addEventListener('DOMContentLoaded', getDataBase)
 
 async function getDataBase(){
+    
     const cities = await cityService.getAll();
     const currentQuiz = getMultipleRandomCity(cities, 10);
+    const appDiv = document.getElementById('app');
+    const app2Div = document.getElementById('app2');
     const correctCityLabel = document.getElementById('correctCityLabel');
     const incorrectCityLabel1 = document.getElementById('incorrectCity1Label');
     const incorrectCityLabel2 = document.getElementById('incorrectCity2Label');
@@ -33,8 +38,9 @@ async function getDataBase(){
             let points = parseInt(localStorage.getItem("points")!);
             points++;
             localStorage.setItem("points", points.toString())
-            console.log(points)
         }
+        appDiv!.classList.toggle('w3-animate-bottom');
+        app2Div!.classList.toggle('w3-animate-bottom');
         RandomOrder();
         imageCity.src = currentQuiz[i].CityImage;
         questionCity!.textContent = currentQuiz[i].Question;

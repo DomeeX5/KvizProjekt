@@ -5,25 +5,28 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="./public/style.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./public/w3.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zászlók kvíz</title>
   </head>
   <body>
-    <div id="app">
-      <img src="" id="image" alt=""><br>
-      <ul>
-        <li>
-          <input type="radio" name="first" id="correct" required><label for="correct" id="correctLabel"></label><br>
-        </li>
-        <li>
-          <input type="radio" name="first" id="incorrect1"><label for="incorrect1" id="incorrect1Label"></label><br>
-        </li>
-        <li>
-          <input type="radio" name="first" id="incorrect2"><label for="incorrect2" id="incorrect2Label"></label><br>
-        </li>
-      </ul>
-      <button id="nextq" class="btn btn-primary">Következő kérdés</button>
-      <p id="error"></p>
+    <div id="app" class="w3-animate-bottom w3-center">
+      <div id="app2" class="">
+        <img src="" id="image" alt=""><br>
+        <ul>
+          <li>
+            <input type="radio" name="first" id="correct" required><label for="correct" id="correctLabel"></label><br>
+          </li>
+          <li>
+            <input type="radio" name="first" id="incorrect1"><label for="incorrect1" id="incorrect1Label"></label><br>
+          </li>
+          <li>
+            <input type="radio" name="first" id="incorrect2"><label for="incorrect2" id="incorrect2Label"></label><br>
+          </li>
+        </ul>
+        <button id="nextq" class="btn btn-primary">Következő kérdés</button>
+        <p id="error"></p>
+      </div>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>

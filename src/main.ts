@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', getDatabase);
 async function getDatabase() {
   const countries = await countryService.getAll();
   const currentQuiz = getMultipleRandom(countries, 10);
+  const appDiv = document.getElementById('app');
+  const app2Div = document.getElementById('app2');
   const correctLabel = document.getElementById('correctLabel');
   const incorrectLabel1 = document.getElementById('incorrect1Label');
   const incorrectLabel2 = document.getElementById('incorrect2Label');
@@ -32,7 +34,9 @@ async function getDatabase() {
         points++;
         localStorage.setItem("points", points.toString())
         console.log(points)
-      }
+      }      
+      appDiv!.classList.toggle('w3-animate-bottom');
+      app2Div!.classList.toggle('w3-animate-bottom');
       RandomOrder();
       image.src = currentQuiz[i].CountryImage;
       correctLabel!.textContent = currentQuiz[i].CorrectAnswer;
