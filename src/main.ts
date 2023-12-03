@@ -19,27 +19,20 @@ async function getDatabase() {
   const incorrectInput1 = document.getElementById('incorrect1') as HTMLInputElement;
   const incorrectInput2 = document.getElementById('incorrect2') as HTMLInputElement;
   const error = document.getElementById('error');
-  const quizQuestions: string[] = [];
+  const quizData: string[] = [];
+  const incorrectAnswer1: string[] = [];
+  const incorrectAnswer2: string[] = [];
   const selectedData: string[] = [];
+  const CorrectCountry: string[] = [];
   let i = 1;
+  let k = 0;
   image.src = currentQuiz[0].CountryImage;
   correctLabel!.textContent = currentQuiz[0].CorrectAnswer;
   incorrectLabel1!.textContent = currentQuiz[0].FirstIncorrectAnswer;
   incorrectLabel2!.textContent = currentQuiz[0].SecondIncorrectAnswer;
-  quizQuestions.push(currentQuiz[0].CountryImage ,currentQuiz[0].CorrectAnswer, currentQuiz[0].FirstIncorrectAnswer, currentQuiz[0].SecondIncorrectAnswer)
-  nextq!.addEventListener('click', () => {
-
-  }, { once: true});
-  if (correctInput.checked) {
-    selectedData.push(currentQuiz[0].CorrectAnswer)
-  } if (incorrectInput1.checked) {
-    selectedData.push(currentQuiz[0].FirstIncorrectAnswer)
-  } if (incorrectInput2.checked) {
-    selectedData.push(currentQuiz[0].SecondIncorrectAnswer)
-  }
   RandomOrder();
   nextq!.addEventListener('click', () => {
-    quizQuestions.push(currentQuiz[i].CountryImage, currentQuiz[i].CorrectAnswer, currentQuiz[i].FirstIncorrectAnswer, currentQuiz[i].SecondIncorrectAnswer)
+    
     if (!correctInput.checked && !incorrectInput1.checked && !incorrectInput2.checked) {
       error!.textContent = "Kötelező kiválasztanod egy opciót!";
     } else {
@@ -47,13 +40,16 @@ async function getDatabase() {
         let points = parseInt(localStorage.getItem("points")!);
         points++;
         localStorage.setItem("points", points.toString())
-        selectedData.push(currentQuiz[i].CorrectAnswer)
+        selectedData.push(currentQuiz[k].CorrectAnswer)
       } if (incorrectInput1.checked) {
-        selectedData.push(currentQuiz[i].FirstIncorrectAnswer)
+        selectedData.push(currentQuiz[k].FirstIncorrectAnswer)
       } if (incorrectInput2.checked) {
-        selectedData.push(currentQuiz[i].SecondIncorrectAnswer)
+        selectedData.push(currentQuiz[k].SecondIncorrectAnswer)
       }
-      console.log(selectedData)
+      quizData.push(currentQuiz[k].CountryImage, currentQuiz[k].CorrectAnswer, currentQuiz[k].FirstIncorrectAnswer, currentQuiz[k].SecondIncorrectAnswer)
+      incorrectAnswer1.push(currentQuiz[k].FirstIncorrectAnswer)
+      incorrectAnswer2.push(currentQuiz[k].SecondIncorrectAnswer)
+      CorrectCountry.push(currentQuiz[k].CorrectAnswer)
       appDiv!.classList.toggle('w3-animate-bottom');
       app2Div!.classList.toggle('w3-animate-bottom');
       RandomOrder();
@@ -62,6 +58,7 @@ async function getDatabase() {
       incorrectLabel1!.textContent = currentQuiz[i].FirstIncorrectAnswer;
       incorrectLabel2!.textContent = currentQuiz[i].SecondIncorrectAnswer;
       i++;
+      k++;
       error!.textContent = "";
       correctInput.checked = false;
       incorrectInput1.checked = false;
@@ -69,9 +66,12 @@ async function getDatabase() {
       if (i == 10) {
         nextq.textContent = "Kérdőív befejezése"
         nextq!.addEventListener('click', () => {
-          localStorage.setItem("selectedOptions", JSON.stringify(selectedData));
-          localStorage.setItem("quizQuestions", JSON.stringify(quizQuestions));
-          window.location.href = './end.html'
+            localStorage.setItem("selectedOptions", JSON.stringify(selectedData));
+            localStorage.setItem("quizData", JSON.stringify(quizData));
+            localStorage.setItem("incorrectAnswer1", JSON.stringify(incorrectAnswer1));
+            localStorage.setItem("incorrectAnswer2", JSON.stringify(incorrectAnswer2));
+            localStorage.setItem("correctCountry", JSON.stringify(CorrectCountry));
+            window.location.href = "./end.html"
         })
       }
     }
