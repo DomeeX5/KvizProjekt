@@ -3,6 +3,11 @@ import { getMultipleRandomCity } from "./getMultipleRandom";
 import { RandomOrder } from "./randomOrder";
 const cityService = new CityService();
 localStorage.setItem("points", "0");
+localStorage.setItem("selectedOptions", "");
+localStorage.setItem("quizData", "");
+localStorage.setItem("incorrectAnswer1", "");
+localStorage.setItem("incorrectAnswer2", "");
+localStorage.setItem("correctCountry", "");
 document!.addEventListener('DOMContentLoaded', getDataBase)
 
 async function getDataBase(){
@@ -72,7 +77,7 @@ async function getDataBase(){
                 localStorage.setItem("quizData", JSON.stringify(quizData));
                 localStorage.setItem("incorrectAnswer1", JSON.stringify(incorrectAnswer1));
                 localStorage.setItem("incorrectAnswer2", JSON.stringify(incorrectAnswer2));
-                localStorage.setItem("correctAnswer", JSON.stringify(CorrectCity));
+                localStorage.setItem("correctCountry", JSON.stringify(CorrectCity));
             window.location.href = './end.html'
             })
         }
