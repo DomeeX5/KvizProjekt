@@ -12,6 +12,7 @@ document!.addEventListener('DOMContentLoaded', () => {
     for (let i = 0; i < selectedData.length; i++) {
     const ul = document.createElement('ul')
     ul.classList.add('myElement')
+    const div = document.createElement('div')
     const image = document.createElement('img')
     image.classList.add('lastpageImage')
     const li1 = document.createElement('li')
@@ -33,8 +34,10 @@ document!.addEventListener('DOMContentLoaded', () => {
     const label2 = document.createElement('label')
     const label3 = document.createElement('label')
     
-    app2Div!.appendChild(image)
-    app2Div!.appendChild(ul)
+    app2Div!.appendChild(div)
+    div!.appendChild(image)
+    div!.appendChild(ul)
+    div.classList.add('container')
     ul.appendChild(li1)
     ul.appendChild(li2)
     ul.appendChild(li3)

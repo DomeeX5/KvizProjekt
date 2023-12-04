@@ -1,5 +1,5 @@
 .lastpageImage {
-    max-width: 20%;
+    max-width: 30%;
     height: auto;
 }
 
@@ -7,6 +7,41 @@ li {
     list-style: none;
 }
 
+label {
+    font-size: larger;
+}
+
+body {
+    background: #b9b3a9;
+    z-index: 1;
+	background: linear-gradient(-45deg, rgb(22, 163, 22), rgb(33, 206, 119), rgb(61, 231, 231), rgb(40, 192, 197), rgb(29, 168, 223));
+	background-size: 400% 400%;
+	animation: animate 20s ease infinite;
+}
+
+.container{
+    padding: 100px;
+    height: auto;
+    margin-top: 80px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+
+
 ul {
     padding-inline-start: 0px;
+}
+
+@keyframes animate {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }

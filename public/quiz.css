@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background: #b9b3a9;
-    display: flex;
-    justify-content: center;
-    z-index: 1;
+  font-family: 'Poppins', sans-serif;
+  background: #b9b3a9;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
 	background: linear-gradient(-45deg, rgb(22, 163, 22), rgb(33, 206, 119), rgb(61, 231, 231), rgb(40, 192, 197), rgb(29, 168, 223));
 	background-size: 400% 400%;
 	animation: animate 20s ease infinite;
