@@ -1,6 +1,29 @@
 p {
   font-size:x-large;
-  line-height: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+img {
+  width:100%;
+}
+.container {
+  max-width:100%;
+  width: 100%;
+}
+.col-md-3{
+  width:100%;
+  float:left;
+  margin:0;
+}
+
+h1{
+  font-weight: bold;
+}
+
+h5{
+  font-size: 25px;
+  font-weight: bold;
 }
 
 body{
