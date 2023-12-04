@@ -5,63 +5,68 @@ body {
     background: #b9b3a9;
     display: flex;
     justify-content: center;
-    background-color: var(--bs-gray-500);
+    z-index: 1;
+	background: linear-gradient(-45deg, rgb(22, 163, 22), rgb(33, 206, 119), rgb(61, 231, 231), rgb(40, 192, 197), rgb(29, 168, 223));
+	background-size: 400% 400%;
+	animation: animate 20s ease infinite;
 }
 
 .container{
-    padding: 20px;
+    padding: 100px;
     height: auto;
     margin-top: 80px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    margin-bottom: 80px;
 }
 
 h1{
     text-align: center;
+    margin-bottom: 20px;
+}
+  
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #428bca;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
 }
 
-.question {
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .options {
-    margin-bottom: 20px;
-  }
-  
-  .option {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 20px;
-    background-color: #428bca;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-    margin-right: 10px;
-  }
-  
-  .btn:hover {
-    background-color: #3071a9;
-  }
-  
-  .hide{
-    display: none;
-  }
+.btn:hover {
+  background-color: #3071a9;
+}
 
-  ul{
-    list-style: none;
-    padding-left:0;
-  }
+ul{
+  list-style: none;
+  padding-left:0;
+}
 
-  li{
+li{
+  font-size: 25px;
+  margin: 10px;
+}
+
+.error{
+    margin-top: 30px;
     font-size: 25px;
-  }
+}
+
+@keyframes animate {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

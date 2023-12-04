@@ -19,7 +19,7 @@ async function getDataBase(){
     const incorrectCityLabel1 = document.getElementById('incorrectCity1Label');
     const incorrectCityLabel2 = document.getElementById('incorrectCity2Label');
     const imageCity = document.getElementById('imageCity') as HTMLImageElement;
-    const questionCity = document.getElementById('questionCity') as HTMLParagraphElement;
+    const questionCity = document.getElementById('questionCity') as HTMLHeadingElement;
     const nextqCity = document.getElementById('nextqCity') as HTMLButtonElement;
     const correctCityInput = document.getElementById('correctCityInput') as HTMLInputElement;
     const incorrectCityInput1 = document.getElementById('incorrectCityInput1') as HTMLInputElement;
