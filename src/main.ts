@@ -3,6 +3,11 @@ import { getMultipleRandom } from "./getMultipleRandom";
 import { RandomOrder } from "./randomOrder";
 const countryService = new CountryService();
 localStorage.setItem("points", "0");
+localStorage.setItem("selectedOptions", "");
+localStorage.setItem("quizData", "");
+localStorage.setItem("incorrectAnswer1", "");
+localStorage.setItem("incorrectAnswer2", "");
+localStorage.setItem("correctCountry", "");
 document.addEventListener('DOMContentLoaded', getDatabase);
 
 async function getDatabase() {
@@ -50,8 +55,8 @@ async function getDatabase() {
       incorrectAnswer1.push(currentQuiz[k].FirstIncorrectAnswer)
       incorrectAnswer2.push(currentQuiz[k].SecondIncorrectAnswer)
       CorrectCountry.push(currentQuiz[k].CorrectAnswer)
-      appDiv!.classList.toggle('w3-animate-bottom');
-      app2Div!.classList.toggle('w3-animate-bottom');
+      appDiv!.classList.toggle('w3-animate-left');
+      app2Div!.classList.toggle('w3-animate-right');
       RandomOrder();
       image.src = currentQuiz[i].CountryImage;
       correctLabel!.textContent = currentQuiz[i].CorrectAnswer;

@@ -30,7 +30,7 @@ ul {
   color: red;
 }
 
-#bootstrap-overrides .card-group {
+.card-group {
   width: 18rem;
   height: 23rem;
 }
