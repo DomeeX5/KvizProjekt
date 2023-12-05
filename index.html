@@ -2,53 +2,98 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./public/style.css">
     <title>Bemutatkozás</title>
 </head>
 <body>
-    <h1>Bemutatkozás</h1>
-    <p>Ez a weblap a Petrik Lajos szakközépiskola 2/14S szoftverfejlesztő osztály projektfeladata.</p>
-    <p>A projekt témája egy zászlókkal kapcsolatos kvíz. </p>
-    <p>A kvíz elkezdéséhez kattints a gombra!</p>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-            <div class="card" style="width: 18rem; height: 23rem;">
-                <div class="card-header" style="padding: 0;">
-                    <img id="flagquizimage" src="https://flagemoji.com/wp-content/uploads/2020/03/Untitled-design-11.png"  class="card-img-top" style="height: 12rem;" alt="...">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active c-item">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSYUWLRE4AyYbW0Vs6sgR-DOdTMAwhwv1lfaJsx-1NscDptUpnH2NtHSbiGtsSUA6uucQ&usqp=CAU" class="d-block w-100 c-img" alt="...">
+                  <div class="carousel-caption top-0 mt-4 ">
+                    <h1 class="mt-5 mb-6" style="font-size: 45px;" >Bemutatkozás</h1>
+                    <p class="mb-6 mt-5" style="font-size: 30px; text-align: center;">Ez a weblap a Petrik Lajos szakközépiskola 2/14S szoftverfejlesztő osztály projektfeladata.</p>
+                    <p class="mb-6 mt-2" style="font-size: 30px; text-align: center;">Készítette: Török Levente (frontend), Major Dominik Zsolt (backend), Szupkai Richárd (adatbázis)</p>
+                    
                 </div>
-                <div class="card-body">
-                  <h5 class="card-title">Zászlók kvíz</h5>
-                  <p class="card-text">10 kérdésből álló kvíz, 30 zászlót tartalmaz.</p>
-                  <div class="text-center">
-                     <a id="nextPageFlag" class="btn btn-primary ">Kvíz kezdése</a>
-                 </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSYUWLRE4AyYbW0Vs6sgR-DOdTMAwhwv1lfaJsx-1NscDptUpnH2NtHSbiGtsSUA6uucQ&usqp=CAU" class="d-block w-100 c-img" alt="...">
+                <div class="carousel-caption top-0 mt-4">
+                    <h1 class="mt-5 mb-6" style="font-size: 45px;" >Projektről</h1>
+                    <p class="mb-6 mt-5" style="font-size: 35px; text-align: center;">A projekt témája az volt hogy kvízt kellett csinálnunk és mi úgy gondóltuk hogy két kvízt fogunk csinálni.</p>
+                </div>
+            </div>
+                <div class="carousel-item c-item">
+                  <img src="https://elle.hu/uploads/quiz/zaszlo-kviz-shutterstock-111577829.jpg" class="d-block w-100 c-img" alt="...">
+                  <div class="carousel-caption top-0 mt-4 ">
+                    <h1 class="mt-5 mb-6" style="font-size: 45px; color: white;" >Zászlók kvíz</h1>
+                    <p class="mb-6 mt-5" style="font-size: 35px; text-align: center; color: white;">Ez a kvíz megméretetti a tudásod amiben ki kell találnod melyik országnak a zászlaját látod éppen. Ha újra próbálkoznál akkor lehet hogy megkapod ugyan azt a zászlót amit láttál az előzőben de akár újjal is találkozhatsz.</p>
+                </div>
+            </div>
+                <div class="carousel-item c-item">
+                  <img src="https://ma7media.storage.googleapis.com/sites/default/files/styles/freeform_large_9_2x/s3/2023-07/hong-kong-1990268_1280.jpg?itok=UvjGvtpo" class="d-block w-100 c-img" alt="...">
+                  <div class="carousel-caption top-0 mt-4 ">
+                    <h1 class="mt-5" style="font-size: 45px; color: rgb(0, 0, 0); background-color: white;" >Város kvíz</h1>
+                    <p style="font-size: 35px; text-align: center; color: rgb(0, 0, 0); background-color: white;">Ez a kvíz megméretetti a tudásod amiben ki kell találnod melyik országnak melyik a fővárosa látod éppen. Ha újra próbálkoznál akkor lehet hogy megkapod ugyan azt a várost amit láttál az előzőben de akár újjal is találkozhatsz..</p>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card" style="width: 18rem; height: 23rem;">
-                <div class="card-header" style="padding: 0;">
-                    <img id="cityquizimage" src="https://www.weeklyquiz.co.uk/wp-content/uploads/2017/12/RC-capital-cities-1024px.jpg"  class="card-img-top" style="height: 12rem;" alt="...">
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      </div>
+      <div class="container">
+        <p style="margin-top: 20px;">A kvíz elkezdéséhez kattints az egyik kvíznek a gombjára!</p>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header" style="padding: 0;">
+                        <img id="flagquizimage" src="https://flagemoji.com/wp-content/uploads/2020/03/Untitled-design-11.png"  class="card-img-top" style="height: 12rem;" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Zászlók kvíz</h5>
+                      <p class="card-text">Ez a kvíz 10 kérdésből áll 30 zászlót tartalmaz összesen.</p>
+                      <div class="text-center">
+                         <a id="nextPageFlag" class="btn btn-primary ">Kvíz kezdése</a>
+                     </div>
+                    </div>
                 </div>
-                <div class="card-body">
-                  <h5 class="card-title">Város kvíz</h5>
-                  <p class="card-text">10 kérdésből álló kvíz, 30 fővárost tartalmaz.</p>
-                  <div class="text-center">
-                     <a id="nextPageCity" class="btn btn-primary ">Kvíz kezdése</a>
-                 </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header" style="padding: 0;">
+                        <img id="cityquizimage" src="https://www.weeklyquiz.co.uk/wp-content/uploads/2017/12/RC-capital-cities-1024px.jpg"  class="card-img-top" style="height: 12rem;" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Város kvíz</h5>
+                      <p class="card-text">10 kérdésből álló kvíz, 30 fővárost tartalmaz.</p>
+                      <div class="text-center">
+                         <a id="nextPageCity" class="btn btn-primary ">Kvíz kezdése</a>
+                     </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <p style="margin-top: 20px;"></p>
     </div>
-        
-        
-    
-    <footer>
-        <p>Készítői: Török Levente (frontend), Major Dominik Zsolt (backend), Szupkai Richárd (adatbázis)</p>
-    </footer>
     <script src="./src/firstpage.ts"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
 </body>
 </html>
