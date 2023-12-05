@@ -56,8 +56,8 @@ async function getDataBase(){
         incorrectAnswer1.push(currentQuiz[k].FirstIncorrectAnswer)
         incorrectAnswer2.push(currentQuiz[k].SecondIncorrectAnswer)
         CorrectCity.push(currentQuiz[k].CorrectAnswer)
-        appDiv!.classList.toggle('w3-animate-bottom');
-        app2Div!.classList.toggle('w3-animate-bottom');
+        appDiv!.classList.toggle('w3-animate-left');
+        app2Div!.classList.toggle('w3-animate-right');
         RandomOrder();
         imageCity.src = currentQuiz[i].CityImage;
         questionCity!.textContent = currentQuiz[i].Question;
