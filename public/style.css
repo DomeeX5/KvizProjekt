@@ -1,23 +1,39 @@
 p {
   font-size:x-large;
-  line-height: 30px;
   text-align: justify;
+}
+
+.card-text{
+  font-size: 15px;
+}
+
+.c-item{
+  height: 640px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.c-img{
+  height: 100%;
+  object-fit: cover;
+}
+
+.card:hover{
+  transform: scale(1.10);
+}
+
+.card{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
 }
 
 img {
   width:100%;
 }
-.container {
-  max-width:100%;
-  width: 100%;
-}
-.col-md-3{
-  width:100%;
-  float:left;
-  margin:0;
-}
 
 h1{
+  text-align: center;
   font-weight: bold;
 }
 
@@ -53,10 +69,6 @@ ul {
   color: red;
 }
 
-.card-group {
-  width: 18rem;
-  height: 23rem;
-}
 
 #bootstrap-overrides #flagquizimage {
   width: 70px;
