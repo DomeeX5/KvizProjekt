@@ -1,3 +1,4 @@
+
 p {
   font-size:x-large;
   text-align: justify;
@@ -30,27 +31,44 @@ p {
 
 img {
   width:100%;
+  border: 10px;
+  border-color: black;
 }
 
-h1{
+.h1-slide{
   text-align: center;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 0;
+  font-size: 45px;
+  text-shadow: 3px 3px 4px white; 
+  color: rgb(0, 0, 0); 
+}
+
+.p-slide{
+  font-size: 28px; 
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  color: rgb(0, 0, 0); 
+}
+
+.city{
+  color: black;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
 }
 
 h5{
   font-size: 25px;
   font-weight: bold;
-}
-
-body{
-  min-height: 95vh;
-  display: flex;
-  flex-direction: column;
-}
-
-footer{
-  margin-top: auto;
 }
 
 li {
@@ -69,7 +87,6 @@ ul {
 #error{
   color: red;
 }
-
 
 #bootstrap-overrides #flagquizimage {
   width: 70px;

@@ -3,6 +3,22 @@
     height: auto;
 }
 
+p{
+    font-size: 60px;
+    color: purple;
+}
+
+img{
+    border: 5px;
+    border-color: black;
+}
+
+a{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
 li {
     list-style: none;
 }
@@ -22,6 +38,7 @@ body {
 .container{
     padding: 100px;
     height: auto;
+    width: auto;
     margin-top: 80px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
