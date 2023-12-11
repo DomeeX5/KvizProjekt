@@ -3,10 +3,12 @@
     height: auto;
 }
 
-p{
+
+p {
+    font-family: monospace;
+    color: #E6E6FA;
     font-size: 60px;
-    color: purple;
-}
+  }
 
 img{
     border: 5px;
@@ -17,6 +19,7 @@ a{
     margin-bottom: 50px;
     margin-top: 50px;
     text-align: center;
+    size: 100px;
 }
 
 li {
