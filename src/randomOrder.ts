@@ -1,3 +1,6 @@
+/**
+ * Az adatbázisban lévő 30 zászló közül kiválaszt random 10 darabot.
+ */
 export function RandomOrder() {
   let ul = document.querySelector('ul');
   for (var k = ul!.children.length; k >= 0; k--) {
