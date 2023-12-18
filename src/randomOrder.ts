@@ -7,7 +7,9 @@ export function RandomOrder() {
     ul!.appendChild(ul!.children[Math.random() * k | 0]);
   }
 }
-
+/**
+ * A RadioButtonok sorrendjét változtatja meg randomizáltra.
+ */
 export function RandomOrder2() {
   var ulList = document.getElementsByClassName("myElement");
 for (let j = 0; j < ulList.length; j++) {
