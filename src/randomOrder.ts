@@ -1,5 +1,5 @@
 /**
- * Az adatbázisban lévő 30 zászló közül kiválaszt random 10 darabot.
+ * Az ország adatbázisból megjelenített opciókat jeleníti meg random.
  */
 export function RandomOrder() {
   let ul = document.querySelector('ul');
@@ -8,7 +8,7 @@ export function RandomOrder() {
   }
 }
 /**
- * A RadioButtonok sorrendjét változtatja meg randomizáltra.
+ * Az város adatbázisból megjelenített opciókat jeleníti meg random.
  */
 export function RandomOrder2() {
   var ulList = document.getElementsByClassName("myElement");
